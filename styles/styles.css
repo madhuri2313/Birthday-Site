@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(#7B2869, #FFBABA);
+    color: #f3cdcd;
+    text-shadow: 0px 0px 2px black;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    height: 100%;
+}
+
+#bday-age {
+    background: #f3cdcd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+    color: #7B2869;
+}
+
+#bday-date {
+    margin: 0;
+    background: #f3cdcd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #7B2869;
+}
+
+#main-section {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#birthday-boy {
+    border: 10px solid rebeccapurple;
+    border-radius: 50%;
+    width: 200px;
+    margin: 10px 10px 0px 10px;
+}
+
+.heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gift-hover {
+    height: 300px;
+    width: 300px;
+    border: 10px solid rebeccapurple;
+    border-radius: 4px;
+    margin:auto;
+    background-image: url("https://i.etsystatic.com/36293590/r/il/edf591/4008748703/il_fullxfull.4008748703_42t9.jpg");
+    background-size: cover;
+    padding-top: 5px;
+}
+
+#img-bless:hover {
+    background-image: url("https://media.giphy.com/media/frh4xU5V0tmik/giphy.gif");
+    background-size: cover;
+}
+
+#daddy:hover {
+    background-image: url("https://media.giphy.com/media/mgjNI6lVm8dBIQbN1F/giphy.gif")
+}
+
+#mummy:hover {
+    background-image: url("https://media.giphy.com/media/ZGBQhaRTHyWtRVn1Xx/giphy.gif")
+}
+
+.gift-section{
+    padding-top: 10px;
+    margin: 20px 20px 20px 20px;
+}
